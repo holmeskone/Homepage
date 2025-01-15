@@ -1,3 +1,64 @@
-body{
-    background-color: antiquewhite;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+
+/* Hero Section */
+#hero {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+#hero #title {
+  display: flex;
+  justify-content: center;
+  background-color: #fafbf4;
+  padding: 3vh 5vw;
+  font-size: 2rem;
+}
+#hero #picture {
+  display: flex;
+  justify-content: center;
+  padding: 3vh 5vw;
+  background-color: #fafbf4;
+}
+
+#hero #picture img {
+  border-radius: 100%;
+  border: 3px solid #7ec8e3;
+}
+
+#intro {
+  background-color: #fafbf4;
+  padding: 5vh 5vw 5vh 5vw;
+  text-align: center;
+}
+#intro p {
+  font-size: 2rem;
+}
+/* Projects Sections */
+#projects {
+  background-color: #7ec8e3;
+  color: #fafbf4;
+  padding: 3vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Contact me Section */
+#projects h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+#projects #weather-project {
+  border: 3px solid #fafbf4;
+  border-radius: 5px;
+  margin: 3vh;
+}
+
+#projects .project-image img {
+  border-bottom: 3px solid #fafbf4;
 }
