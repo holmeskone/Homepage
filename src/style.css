@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-body {
+  font-family: "Open Sans", serif;
 }
 
 /* Hero Section */
@@ -16,7 +15,7 @@ body {
   justify-content: center;
   background-color: #fafbf4;
   padding: 3vh 5vw;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 #hero #picture {
   display: flex;
@@ -33,10 +32,10 @@ body {
 #intro {
   background-color: #fafbf4;
   padding: 5vh 5vw 5vh 5vw;
-  text-align: center;
+  text-align: lef;
 }
 #intro p {
-  font-size: 2rem;
+  font-size: 1.85rem;
 }
 /* Projects Sections */
 #projects {
@@ -47,7 +46,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-/* Contact me Section */
 #projects h2 {
   font-size: 2rem;
   text-align: center;
@@ -61,4 +59,20 @@ body {
 
 #projects .project-image img {
   border-bottom: 3px solid #fafbf4;
+  height: auto;
+  width: 100%;
 }
+
+#projects .project-content {
+  padding: 1vh 2.5vw 1vh 2.5vw;
+}
+#projects .project-content h3 {
+  font-size: 1.5rem;
+}
+
+#projects .project-content p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/* Contact me Section */
