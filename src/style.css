@@ -76,3 +76,25 @@
 }
 
 /* Contact me Section */
+#contact-me {
+  background-color: #fafbf4;
+  color: black;
+  padding: 3vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+#contact-me h2 {
+  padding-bottom: 3vh;
+}
+
+#contact-me #contact-CTA {
+  text-align: center;
+}
+
+#contact-me #contact-socials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5vw;
+}
